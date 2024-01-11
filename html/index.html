@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Rick and Morty API</h1>
+
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search characters...">
+        <button onclick="searchCharacters()">Search</button>
+    </div>
+
+    <div id="characters-list"></div>
+    <div id="pagination"></div>
+
+    <button onclick="previousPage()">Previous Page</button>
+    <button onclick="nextPage()">Next Page</button>
+
+    
+    <img src="images/rick-and-morty-portal-shoes-white-clothing-zavvi-23.jpg" alt="End Image" class="character-image">
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
